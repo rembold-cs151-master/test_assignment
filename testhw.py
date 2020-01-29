@@ -10,10 +10,8 @@ animal_list = ['goat', 'sheep', 'cow', 'ardvark', 'lion', 'zebra', 'snake', 'mon
 def last_alph(animal_list):
 # Add your code below
 # --------------------------------
-
-
-
-    return
+    pass
+    #return sorted(animal_list)[-1]
 
 # --------------------------------
 # Don't add code below here.
