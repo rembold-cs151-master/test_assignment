@@ -9,9 +9,8 @@ animal_list = ['goat', 'sheep', 'cow', 'ardvark', 'lion', 'zebra', 'snake', 'mon
 
 def last_alph(animal_list):
 # Add your code below
-# --------------------------------
-    pass
-    #return sorted(animal_list)[-1]
+# --------------------------------https://github.com/rembold-cs151-master/test_assignment.git
+    return sorted(animal_list)[-1]
 
 # --------------------------------
 # Don't add code below here.
