@@ -1,5 +1,5 @@
 # This (clearly) is a Test HW
-![](https://github.com/rembold-cs151-master/test_assignment/workflows/Autotesting/badge.svg)
+![](https://github.com/<user_info>/workflows/Autotesting/badge.svg)
 
 Assignment status: DONE
 
