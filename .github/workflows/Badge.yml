@@ -16,14 +16,12 @@ jobs:
         then
           echo "Updating Badge Info";
           sed -i '2s|<user_info>|'${{ github.repository }}'|g' README.md;
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Update Badge Info" -a
         else
           echo "No update necessary";
         fi
-    - name: Commit Files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "Update Badge Info" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
