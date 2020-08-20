@@ -2,6 +2,7 @@ name: Update Badge
 
 on:
   push
+  workflow_dispatch
 
 jobs:
   build:
@@ -9,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Update User Info
       run: |
         if grep -q "<user_info>" README.md && ! grep -q "master" <<< ${{ github.repository }} ;
