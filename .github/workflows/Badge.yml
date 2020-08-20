@@ -1,9 +1,7 @@
 name: Update Badge
 
 on:
-  push:
-    paths:
-      - 'README.md'
+  push
 
 jobs:
   build:
